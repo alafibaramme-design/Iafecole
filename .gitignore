@@ -1,0 +1,57 @@
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Ignore les dossiers système
+.vscode/
+.idea/
+.sublime-project
+.sublime-workspace
+
+# Ignore les fichiers de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore les dossiers de dépendances
+node_modules/
+dist/
+build/
+
+# Ignore les fichiers temporaires
+*.tmp
+*.temp
+*.bak
+
+# Ignore les fichiers de configuration personnelle
+.env
+.env.local
+.env.*.local
+
+# Ignore les fichiers de test de couverture
+coverage/
+.nyc_output/
+
+# Ignore les dossiers de cache
+.cache/
+.parcel-cache/
+
+# Ignore les fichiers de configuration IDE
+*.iml
+.gradle/
+.gradle
+
+# Ignore les fichiers macOS
+.AppleDouble
+.AppleDB
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore les fichiers Windows
+desktop.ini
+$RECYCLE.BIN/
